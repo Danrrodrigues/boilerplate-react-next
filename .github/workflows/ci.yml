@@ -25,7 +25,12 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: run Lighthouse CI
-        run: |
-          npm install -g @lhci/cli@0.4.x
-          lhci autorun
+      # build the static site 
+      - name: Run Lighthouse against static public directory
+      # configure lighthouse
+        uses: treosh/lighthouse-ci-action@v2
+        with:
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          runs: 3
+          configPath: '.github/workflows/lighthouserc.json'
