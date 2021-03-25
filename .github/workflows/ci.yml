@@ -23,18 +23,9 @@ jobs:
         run: yarn test
 
       - name: Build
-        run: yarn build
-  lighthouseci:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: npm install && npm install -g @lhci/cli@0.7.x
-      - run: npm run build
-      - run: lhci autorun
-      
-      #- name: run Lighthouse CI
-      #  run: |
-      #    npm install -g @lhci/cli@0.4.x
-      #    lhci autorun
-
+        run: yarn build 
+		
+      - name: run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.3.x
+          lhci autorun --upload.target=temporary-public-storage || echo "LHCI failed!"
