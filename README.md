@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/414ced7a-b9a3-411a-aa9b-c274290d2680/deploy-status)](https://app.netlify.com/sites/boilerplate-react-next/deploys)
+[![ci](https://github.com/Danrrodrigues/boilerplate-react-next/actions/workflows/ci.yml/badge.svg)](https://github.com/Danrrodrigues/boilerplate-react-next/actions/workflows/ci.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/414ced7a-b9a3-411a-aa9b-c274290d2680/deploy-status)](https://app.netlify.com/sites/boilerplate-react-next/deploys)
 
 [https://boilerplate-react-next.netlify.app/](https://boilerplate-react-next.netlify.app/)
 
