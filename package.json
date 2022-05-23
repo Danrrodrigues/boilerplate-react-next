@@ -40,7 +40,7 @@
     "@styled-icons/fa-brands": "^10.22.0",
     "@styled-icons/material-outlined": "^10.18.0",
     "@styled-icons/remix-fill": "^10.18.0",
-    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-essentials": "^6.5.4",
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^6.2.8",
     "@testing-library/jest-dom": "^5.11.10",
