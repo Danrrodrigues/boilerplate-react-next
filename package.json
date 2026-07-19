@@ -25,7 +25,7 @@
     ]
   },
   "dependencies": {
-    "next": "10.1.2",
+    "next": "15.5.18",
     "next-pwa": "^5.0.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -40,9 +40,9 @@
     "@styled-icons/fa-brands": "^10.22.0",
     "@styled-icons/material-outlined": "^10.18.0",
     "@styled-icons/remix-fill": "^10.18.0",
-    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-essentials": "^6.5.16",
     "@storybook/preset-typescript": "^3.0.0",
-    "@storybook/react": "^6.2.8",
+    "@storybook/react": "^10.5.2",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/user-event": "^12.1.9",
     "@testing-library/react": "^11.2.6",
